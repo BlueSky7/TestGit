@@ -13,4 +13,5 @@ git log  // initial commit
 
 git commit -m "write new message in the file"
 git commit -F FileName.ext  // show the text from file
-vim FileName.ext  // access the file
+vim FileName.ext  // access the file.
+
