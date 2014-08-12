@@ -14,4 +14,10 @@ git log  // initial commit
 git commit -m "write new message in the file"
 git commit -F FileName.ext  // show the text from file
 vim FileName.ext  // access the file.
-_
+
+To change and upload a file:-
+1. vim FileName.ext  //rewrite something in the file
+2. git commit FileName.ext
+ 2.1. Write commit_message for committing
+3. git push -u origin master
+So you are DONE !!!
